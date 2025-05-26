@@ -1,0 +1,6 @@
+<launch>
+  <node name="robomaster" pkg="robomaster_ros" exec="robomaster_driver" output="screen">
+    <param name="model" value="ep"/>
+    <param name="conn_type" value="sta"/> 
+    <param name="gripper/enabled" value="true"/> </node>
+</launch>

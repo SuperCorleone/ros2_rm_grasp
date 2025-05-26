@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find-pkg-share robomaster_ros)/launch/main.launch">
+    <arg name="model" value="ep"/>
+    <!-- <arg name="name" value="rm0"/> -->
+    <arg name="enable_gripper" value="true"/>
+    <arg name="chassis_odom_twist_in_odom" value="true"/>
+    </include>
+</launch>
